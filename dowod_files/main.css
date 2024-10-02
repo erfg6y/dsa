@@ -1,0 +1,41 @@
+/* Ustawienia ogólne */
+body {
+    background: url('path_to_your_background_image.jpg') no-repeat center center fixed; 
+    background-size: cover; /* Tło wypełnia cały ekran */
+    margin: 0; /* Usuwa domyślne marginesy */
+    font-family: Arial, sans-serif; /* Ustawia czcionkę */
+    color: #ffffff; /* Ustawia kolor tekstu na biały */
+}
+
+/* Stylizacja paska nawigacji */
+.navbar {
+    position: fixed; /* Zmienia pozycję na fixed, aby pasował do ekranu */
+    top: 0; /* Ustala górny margines na 0 */
+    width: 100%; /* Ustala szerokość na 100% */
+    z-index: 1000; /* Zapewnia, że pasek będzie nad innymi elementami */
+    background-color: rgba(0, 0, 0, 0.8); /* Ustawia półprzezroczyste tło dla paska */
+    padding: 10px; /* Dodaje padding wewnętrzny */
+}
+
+/* Dostosowanie nagłówka, aby nie był zakrywany */
+.header {
+    padding-top: 60px; /* Dodaje górny margines, aby elementy nie były zakryte */
+}
+
+/* Stylizacja dla godziny i nazwy użytkownika */
+.time, .username {
+    position: relative; /* Zmienia pozycję na relative */
+    z-index: 2000; /* Zapewnia, że będą nad paskiem */
+    margin-top: 10px; /* Dodaje górny margines, aby oddzielić je od paska */
+}
+
+/* Dodatkowe style (jeśli potrzebne) */
+h1, h2, h3 {
+    margin: 20px 0; /* Dodaje marginesy do nagłówków */
+}
+
+p {
+    line-height: 1.6; /* Zwiększa interlinię dla lepszej czytelności */
+}
+
+/* Możesz dodać więcej stylów w zależności od potrzeb */
